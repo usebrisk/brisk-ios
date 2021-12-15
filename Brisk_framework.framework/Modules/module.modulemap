@@ -1,0 +1,11 @@
+framework module Brisk_framework {
+  umbrella header "Brisk_framework.h"
+
+  export *
+  module * { export * }
+}
+
+module Brisk_framework.Swift {
+    header "Brisk_framework-Swift.h"
+    requires objc
+}
